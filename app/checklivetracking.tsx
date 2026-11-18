@@ -24,7 +24,7 @@ import * as Location from "expo-location";
 
 import { ref, set, update } from "firebase/database";
 
-import { auth, db } from "../../f2hdelivery/app/firebase/firebaseConfig";
+import { auth, db } from "./firebase/firebaseConfig";
 
 // --------------------------------------------------
 // TYPES
