@@ -24,7 +24,10 @@ import * as Location from "expo-location";
 
 import { ref, set, update } from "firebase/database";
 
+
 import { auth, db } from "../firebase/firebaseConfig";
+
+
 
 // --------------------------------------------------
 // TYPES
