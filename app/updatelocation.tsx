@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { View, Text, StyleSheet, Alert } from "react-native";
 import * as Location from "expo-location";
 import { ref, update, onValue, off } from "firebase/database";
-import { auth, db } from "../../f2hdelivery/app/firebase/firebaseConfig";
+import { auth, db } from "../firebase/firebaseConfig";
 
 export default function RiderHome() {
   const locationSub = useRef<Location.LocationSubscription | null>(null);

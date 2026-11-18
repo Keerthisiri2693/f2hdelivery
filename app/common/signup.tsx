@@ -19,7 +19,7 @@ import { useRouter } from "expo-router";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { ref, set } from "firebase/database";
-import { auth, db } from "../firebase/firebaseConfig";
+import { auth, db } from "../../firebase/firebaseConfig";
 
 /* 💖 VALENTINE COLORS */
 const PRIMARY = "#E63946";
